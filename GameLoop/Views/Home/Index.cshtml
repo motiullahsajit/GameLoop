@@ -1,0 +1,29 @@
+﻿@model IEnumerable<GameLoop.Models.Game>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <div class="row">
+        @foreach (var game in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="@game.ImageUrl" class="card-img-top" alt="@game.Name" />
+                    <div class="card-body">
+                        <h5 class="card-title">@game.Name</h5>
+                        <p class="card-text">@game.Description</p>
+                        <p class="card-text"><strong>@game.Price.ToString("C")</strong></p>
+                        <form action="/Orders/PlaceOrder" method="post">
+                            <input type="hidden" name="gameId" value="@game.Id" />
+                            <button type="submit" class="btn btn-success">Order</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

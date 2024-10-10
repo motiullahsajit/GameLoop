@@ -1,0 +1,18 @@
+﻿@model GameLoop.Controllers.SalesReportViewModel
+
+@{
+    ViewData["Title"] = "Sales Reports";
+}
+
+<h2>Sales Reports</h2>
+
+<div class="card">
+    <div class="card-header">
+        General Sales Statistics
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Total Sales: @Model.TotalSales.ToString("C")</h5>
+        <h5 class="card-title">Total Orders: @Model.TotalOrders</h5>
+        <h5 class="card-title">Total Items Sold: @Model.TotalItemsSold</h5>
+    </div>
+</div>

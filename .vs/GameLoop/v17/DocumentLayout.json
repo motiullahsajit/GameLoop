@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sajit\\source\\repos\\GameLoop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9165ED8A-982D-43A6-A5D7-A76942F43845}|GameLoop\\GameLoop.csproj|c:\\users\\sajit\\source\\repos\\gameloop\\gameloop\\views\\manageorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9165ED8A-982D-43A6-A5D7-A76942F43845}|GameLoop\\GameLoop.csproj|solutionrelative:gameloop\\views\\manageorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9165ED8A-982D-43A6-A5D7-A76942F43845}|GameLoop\\GameLoop.csproj|c:\\users\\sajit\\source\\repos\\gameloop\\gameloop\\controllers\\manageorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9165ED8A-982D-43A6-A5D7-A76942F43845}|GameLoop\\GameLoop.csproj|solutionrelative:gameloop\\controllers\\manageorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sajit\\source\\repos\\GameLoop\\GameLoop\\Views\\ManageOrders\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameLoop\\Views\\ManageOrders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sajit\\source\\repos\\GameLoop\\GameLoop\\Views\\ManageOrders\\Index.cshtml",
+              "RelativeToolTip": "GameLoop\\Views\\ManageOrders\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T04:46:17.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\sajit\\source\\repos\\GameLoop\\GameLoop\\Controllers\\ManageOrdersController.cs",
+              "RelativeDocumentMoniker": "GameLoop\\Controllers\\ManageOrdersController.cs",
+              "ToolTip": "C:\\Users\\sajit\\source\\repos\\GameLoop\\GameLoop\\Controllers\\ManageOrdersController.cs",
+              "RelativeToolTip": "GameLoop\\Controllers\\ManageOrdersController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAywDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:46:08.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

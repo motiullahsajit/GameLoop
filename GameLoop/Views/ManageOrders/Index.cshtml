@@ -1,0 +1,43 @@
+﻿@model IEnumerable<GameLoop.Models.Order>
+
+<h2>Manage Orders</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>User ID</th>
+            <th>Order Date</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.UserId</td>
+                <td>@order.OrderDate.ToString("g")</td>
+                <td>@order.TotalPrice.ToString("C")</td>
+                <td>
+                    <form asp-action="ChangeStatus" method="post" style="display:inline;">
+                        <select name="status" onchange="this.form.submit();">
+                            <option value="" disabled selected>@order.Status</option>
+                            <option value="Processing">Processing</option>
+                            <option value="Delivered">Delivered</option>
+                            <option value="Canceled">Canceled</option>
+                        </select>
+                        <input type="hidden" name="id" value="@order.Id" />
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="DeleteConfirmed" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@order.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
